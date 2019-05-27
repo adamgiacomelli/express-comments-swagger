@@ -13,7 +13,7 @@ yarn add express-comments-swagger
 ```
 const express = require('express');
 const app = express();
-const expressSwagger = require('express-swagger-generator')(app);
+const expressSwagger = require('express-comments-swagger')(app);
 
 let options = {
     swaggerDefinition: {
